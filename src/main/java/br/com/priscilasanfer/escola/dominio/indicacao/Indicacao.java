@@ -1,6 +1,6 @@
-package br.com.priscilasanfer.escola.indicacao;
+package br.com.priscilasanfer.escola.dominio.indicacao;
 
-import br.com.priscilasanfer.escola.aluno.Aluno;
+import br.com.priscilasanfer.escola.dominio.aluno.Aluno;
 
 import java.time.LocalDateTime;
 

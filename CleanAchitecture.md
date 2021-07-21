@@ -57,3 +57,40 @@ Resumo:
 - As diferenças entre Entidades e Value Objects.
 - O conceito de fábrica, no contexto do Clean Architecture.
 
+
+## 03. Camadas
+
+Desde os cursos de orientação a objetos, nós já vimos como utilizar pacotes, mas agora eles estão sendo ainda mais úteis.  
+Que vantagem ganhamos ao organizar nossa aplicação em pacotes?  
+- Nossa arquitetura fica mais clara e, em um projeto grande, encontramos as classes mais facilmente.  
+  Pacotes são uma ferramenta essencial para toda arquitetura.   
+  No final do treinamento, teremos uma estrutura mais robusta de módulos, com a utilização dos pacotes.  
+
+*Screaming Arch*  
+Existe um conceito chamado Screaming Architecture.   
+Em uma tradução livre, Arquitetura Gritante.  
+Seguindo este princípio, fica fácil bater o olho na arquitetura de um projeto e saber do que se trata, facilitando até a entrada de novas pessoas no projeto: https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html  
+
+*Regra de dependência*  
+Vimos que em vários padrões arquiteturais existem divisões em camadas.   
+Esses modelos foram evoluindo, até que essas camadas foram divididas em mais interiores e mais exteriores.  
+Qual a ordem em que as dependências deveriam acontecer nas camadas de um projeto?  
+- Sempre para dentro (camadas de fora podem depender das de dentro)
+  Assim, o nosso domínio (camada mais interna) é independente de qualquer detalhe exterior. 
+  Nossa aplicação depende apenas do nosso domínio, e não conhece detalhes de infraestrutura. 
+  A camada de infraestrutura apoia as camadas mais interiores.
+
+*Domain Driven Design*
+Ao desenvolver um sistema complexo, o domínio deve ser o foco. Por isso, ele é a camada central dos padrões de arquitetura.  
+Web, frameworks e mecanismos de persistência (como bancos de dados) são meros detalhes. São ferramentas para executar suas regras de negócio.  
+Executar a sua aplicação pela CLI deve ser tão fácil quanto através de uma API. O mesmo vale para uma interface Web.  
+O conceito de modelarmos a nossa aplicação pensando primeiramente no domínio é chamado de Domain Driven Design, ou design orientado a domínio.   
+Munidos desta mentalidade, podemos garantir uma melhor manutenibilidade e extensibilidade de nosso projeto.
+
+Resumo:
+- Que podemos utilizar pacotes do Java para separar a nossa aplicação em módulos que façam sentido.
+- A aplicar conceitos de padrões arquiteturais ao separar nossa aplicação em camadas.
+  Começamos pelo domínio.
+
+
+

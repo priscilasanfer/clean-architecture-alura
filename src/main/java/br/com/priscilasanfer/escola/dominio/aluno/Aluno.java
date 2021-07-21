@@ -1,4 +1,4 @@
-package br.com.priscilasanfer.escola.aluno;
+package br.com.priscilasanfer.escola.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
