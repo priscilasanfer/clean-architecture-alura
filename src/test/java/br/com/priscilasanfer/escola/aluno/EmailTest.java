@@ -1,4 +1,4 @@
-package escola;
+package br.com.priscilasanfer.escola.aluno;
 
 import org.junit.jupiter.api.Test;
 

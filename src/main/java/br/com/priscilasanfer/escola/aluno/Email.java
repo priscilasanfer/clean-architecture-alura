@@ -1,4 +1,4 @@
-package escola;
+package br.com.priscilasanfer.escola.aluno;
 
 public class Email {
     private String endereco;

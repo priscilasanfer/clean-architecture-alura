@@ -1,4 +1,6 @@
-package escola;
+package br.com.priscilasanfer.escola.indicacao;
+
+import br.com.priscilasanfer.escola.aluno.Aluno;
 
 import java.time.LocalDateTime;
 
