@@ -107,6 +107,24 @@ Resumo:
 - Que é possível criar implementações que sejam mais fáceis de utilizar em nossos testes.
 
 
+## 05. Services
+
+Qual o objetivo da utilização de classes service?  
+- Representar uma classe que executa alguma ação que não pertence a nenhuma entidade ou VO.   
+  As nossas regras de negócio devem ficar nas entidades e VOs, mas nem sempre isso faz sentido.   
+  Quando precisamos executar alguma ação que não faça parte de nenhuma entidade nem de um VO, podemos utilizar uma classe Service.  
+  
+
+*Aplicação*
+O que entra na camada de aplicação pode ser um assunto polêmico.   
+A interface de envio de e-mail que acabamos de criar poderia muito bem estar em nosso domínio, sem ferir nenhuma regra.
+
+Resumo:
+- O conceito de classes Services e mais especifico Domain, Application e Infrastructure Services
+- Domain Services são classes que representam uma ação entre mais de uma entidade.
+- Application Services controlam o fluxo de alguma regra em nossa aplicação.
+- Infrastructure Services são implementações de interfaces presentes nas camadas de domínio ou de aplicação.
+
 
 
 
