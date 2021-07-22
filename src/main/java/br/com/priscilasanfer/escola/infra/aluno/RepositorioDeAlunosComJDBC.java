@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RepositorioDeAlunosComJDBC implements RepositorioDeAluno {
+public class RepositorioDeAlunosComJDBC implements RepositorioDeAlunos {
     private final Connection connection;
 
     public RepositorioDeAlunosComJDBC(Connection connection) {

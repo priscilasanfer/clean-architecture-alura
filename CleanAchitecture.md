@@ -126,6 +126,17 @@ Resumo:
 - Infrastructure Services são implementações de interfaces presentes nas camadas de domínio ou de aplicação.
 
 
+## 06. Interface com usuário
+
+
+*Use cases*
+Os termos Use Case, Application Service e Command Handler são basicamente sinônimos e servem para fornecer pontos de entrada na sua aplicação, de forma independente dos mecanismos de entrega (Web, CLI, etc).
+
+Resumo:
+- Como fornecer acesso à nossa aplicação, através de Use Cases
+- Na prática, que web, persistência e frameworks podem ser meras ferramentas.
+- Na prática, as vantagens de modelar uma aplicação, partindo do seu domínio.
+
 
 
 

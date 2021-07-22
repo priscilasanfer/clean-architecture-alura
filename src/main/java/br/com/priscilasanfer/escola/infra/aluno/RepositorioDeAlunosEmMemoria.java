@@ -2,14 +2,10 @@ package br.com.priscilasanfer.escola.infra.aluno;
 
 import br.com.priscilasanfer.escola.dominio.aluno.*;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RepositorioDeAlunosEmMemoria implements RepositorioDeAluno {
+public class RepositorioDeAlunosEmMemoria implements RepositorioDeAlunos {
 
     private List<Aluno> matriculados = new ArrayList<>();
 
