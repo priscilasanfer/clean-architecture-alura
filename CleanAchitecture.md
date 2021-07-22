@@ -91,6 +91,23 @@ Resumo:
 - Que podemos utilizar pacotes do Java para separar a nossa aplicação em módulos que façam sentido.
 - A aplicar conceitos de padrões arquiteturais ao separar nossa aplicação em camadas.
   Começamos pelo domínio.
+  
+
+## 04. Repositórios
+
+*Repositórios em duas camadas*
+Separamos o nosso repositório em duas camadas: interface no domínio e implementação na infraestrutura.
+Que vantagem temos ao separar os repositórios nessas duas camadas?
+- Isolamos o nosso domínio de detalhes de persistência.
+  Ao deixarmos apenas a interface na camada de domínio, a camada de aplicação poderá depender dos nossos repositórios, mas deixando a implementação na camada de infraestrutura, o nosso domínio não precisa conhecer detalhes de infraestrutura.
+  
+Resumo:
+- O conceito de repositórios.
+- A motivação para separar os repositórios em mais de uma camada.
+- Que é possível criar implementações que sejam mais fáceis de utilizar em nossos testes.
+
+
+
 
 
 
